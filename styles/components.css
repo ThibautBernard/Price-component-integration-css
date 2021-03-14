@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5%;
+}
+/** first block **/
+.top-block{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2%;
+}
+.top-block h3{
+    color: teal;
+}
+.top-block .promo{
+    color: yellowgreen;
+}
+.top-block .content{
+    color: grey;
+}
+.text{
+    margin: 6%;
+}
+/** Second block **/
+.second-block{
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    border-radius: 2%;
+    color: white;
+}
+.second-block .text h3{
+    margin:0px;
+}
+.second-block .price{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+}
+.second-block .price p{
+    margin: 0;
+    margin-left: 4%;
+    opacity: 45%;
+}
+.second-block .price h1{
+    margin: 0;
+
+}
+.second-block .text .inf{
+    margin:0;
+    opacity: 70%;
+    margin-top: 2%;
+}
+.second-block .text .button{
+    margin: 0;
+    background-color: yellowgreen;
+    text-align: center;
+    margin-top: 15%;
+    border-radius: 8px;
+    padding: 5%;
+    /**box-shadow: 1px 5px 28px black;**/
+}
+.second-block .text .button:hover{
+    opacity: 80%;
+}
+
+.second-block .text a{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+/** Third block **/
+.third-block{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(179, 51%, 44%);
+    border-radius: 2%;
+    color: white;
+}
+.third-block .text .links{
+    display: flex;
+    flex-direction: column;
+}
+.third-block .text .links a{
+    text-decoration: none;
+    color: white;
+    opacity: 56%;
+    padding-bottom: 2%;
+}
