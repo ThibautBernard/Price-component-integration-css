@@ -90,3 +90,20 @@
     opacity: 56%;
     padding-bottom: 2%;
 }
+
+/** RESPONSIVE **/
+@media screen and (min-width: 500px) {
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .top-block{
+        width: 100%;
+    }
+    .second-block{
+        width: 50%;
+    }
+    .third-block{
+        width: 50%;
+    }
+}
